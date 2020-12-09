@@ -38,7 +38,7 @@ if($action = "note-name"){
 
 	}else{
 		
-		include 'view/note.view.php';
+		//include 'view/note.view.php';
 	}
 
 	
