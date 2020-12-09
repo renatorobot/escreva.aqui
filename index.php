@@ -18,7 +18,7 @@
 
     <div class="container">
 
-    <h1 class="text-center text-white-50 mt-5 display-4">Escreva.aqui</h1>
+    <h1 class="text-center mt-5 display-4"><a href="index" class="text-white-50">Escreva.aqui</a></h1>
     <p class="text-center text-white-50 mb-4">[ Seu bloco de notas on-line ]</p>
     <div class="jumbotron">
 

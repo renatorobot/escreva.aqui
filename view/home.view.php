@@ -1,10 +1,10 @@
 
 
-<form action="?page=notepad&include=note" method="POST" autocomplete="off">
+<form action="?page=notepad&include=note-name" method="POST" autocomplete="off">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Novo ou Pesquisar">
+                <input type="text" class="form-control"  name="inputName" placeholder="Novo ou Pesquisar" required>
             </div>
         </div>
     </div>
