@@ -61,6 +61,34 @@ class noteDao{
 	}
 
 
+	public function saveNote($note){
+
+		$id = $note->getId();
+		$text = $note->getText();
+		
+		try{
+
+			$conn = ConnectionFactory::getConnection();
+			$conn->beginTransaction();
+			$up = $conn->prepare("UPDATE note SET text=:text WHERE id=:id");
+			$up->bindParam(':text', $text);
+			$up->bindParam(':id', $id);
+			
+			$up->execute();
+			$conn->commit();
+
+			
+		}catch(Exception $e){
+
+			$conn->rollback();
+			echo $e;
+			
+
+		}
+
+	}
+
+
 
 }
 

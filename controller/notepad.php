@@ -15,7 +15,7 @@ if (isset($_GET['include'])) {
 
 }
 
-if($action = "note-name"){
+if($action == "note-name"){
 
 	$note = new Note();
 	$note->setName($_POST['inputName']);
@@ -38,10 +38,19 @@ if($action = "note-name"){
 
 	}else{
 		
-		//include 'view/note.view.php';
+		include 'view/note.view.php';
 	}
 
 	
+}else if($action == "save-note"){
+
+	$note = new Note();
+	$note->setId($_POST['id-note']);
+	$note->setText($_POST['note']);
+
+	$save = new noteDao();
+	$save->saveNote($note);
+
 }
 
 ?>

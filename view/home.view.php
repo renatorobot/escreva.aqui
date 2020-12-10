@@ -10,7 +10,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-md-3">
-            <button type="submit" class="btn btn-light btn-block mb-1">Ir!</button>
+            <button type="submit" class="btn btn-light btn-block mb-1">Go!</button>
         </div>
         <div class="col-md-3">
             <button type="reset" class="btn btn-light btn-block mb-1">Limpar</button>
