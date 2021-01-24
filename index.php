@@ -43,7 +43,7 @@
 
                 } else {
 
-                echo "teste";
+                echo "algo não deu certo!";
 
                 }   
 
