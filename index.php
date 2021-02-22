@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/page.css">
 
-
     <title>Escreva.aqui - seu bloco de notas on-line</title>
 
   </head>
