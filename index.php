@@ -55,7 +55,7 @@
         ?>
 
       </div>
-       <p class="text-white-50 text-center"><?php echo date("Y")?>. desenvolvido por <a href="https://github.com/renatorobot" target="_blank" class="text-white-50"><u>Renato Andrade</u></a></p>
+       <p class="text-white-50 text-center">Copyright &copy; <?php echo date("Y")?>. desenvolvido por <a href="https://github.com/renatorobot" target="_blank" class="text-white-50"><u>Renato Andrade</u></a></p>
     </div>
   </body>
 </html>
